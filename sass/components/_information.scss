@@ -11,17 +11,17 @@
 
 .quality__list {
   width: 270px;
-}
 
-.quality__list::before {
-  display: inline-block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgba(245, 244, 250, 1);
+  &::before {
+    display: inline-block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(245, 244, 250, 1);
+  }
 }
 
 .quality__antenna::before {

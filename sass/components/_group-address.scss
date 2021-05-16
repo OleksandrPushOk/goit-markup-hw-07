@@ -17,15 +17,15 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.group-address__map:hover,
-.group-address__map:focus {
-  color: var(--hover-focus-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
 
-.group-address__map:active {
-  color: red;
+  &:active {
+    color: red;
+  }
 }
 
 .group-address__link {
@@ -42,13 +42,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.group-address__link:hover,
-.group-address__link:focus {
-  color: var(--hover-focus-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--hover-focus-color);
+  }
 
-.group-address__link:active {
-  color: red;
+  &:active {
+    color: red;
+  }
 }

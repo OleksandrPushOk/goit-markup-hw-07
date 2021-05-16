@@ -53,8 +53,8 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__button:focus .modal__svg {
-  fill: var(--hover-focus-color);
+  .modal__button:focus & {
+    fill: var(--hover-focus-color);
+  }
 }
