@@ -4,7 +4,7 @@
 }
 
 .social__icons {
-  background-color: #ffffff;
+  background-color: var(--basic-background-color);
 
   &:not(:last-child) {
     margin-right: 10px;
@@ -25,7 +25,7 @@
 
   &:hover,
   &:focus {
-    background-color: #2196f3;
+    background-color: var(--hover-focus-color);
   }
 }
 
@@ -40,6 +40,6 @@
 
   .social__link:hover &,
   .social__link:focus & {
-    fill: #ffffff;
+    fill: var(--fill-icons);
   }
 }

@@ -1,7 +1,8 @@
 .component-logo {
   display: inline-block;
+  margin-bottom: 20px;
 
-  color: #2196f3;
+  color: var(--basic-logo-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -15,7 +16,7 @@
 
   &:hover,
   &:focus {
-    color: #ffffff;
+    color: var(--additional-hover-focus-color);
   }
 
   &:active {
@@ -24,7 +25,7 @@
 }
 
 .color-two-logo {
-  color: #ffffff;
+  color: var(--additional-white-text-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;

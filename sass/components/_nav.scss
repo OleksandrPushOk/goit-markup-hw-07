@@ -12,7 +12,7 @@
   padding-bottom: 25px;
 
   text-decoration: none;
-  color: #2196f3;
+  color: var(--basic-logo-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -35,7 +35,7 @@
 }
 
 .logo .color-two {
-  color: #212121;
+  color: var(--basic-text-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -51,8 +51,7 @@
 .site-nav__iten {
   display: block;
   position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-bottom: 0px;
 
   &:first-child {
     margin-left: 93px;
@@ -63,7 +62,9 @@
 }
 
 .site-nav__link {
-  margin-bottom: 0px;
+  display: inline-flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--basic-text-color);
   font-weight: 500;

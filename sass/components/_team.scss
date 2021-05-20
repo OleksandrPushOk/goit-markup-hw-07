@@ -23,7 +23,7 @@
 }
 
 .our-employees__best {
-  background-color: #ffffff;
+  background-color: var(--basic-background-color);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(70, 3, 3, 0.12);
   border-radius: 4px;
@@ -33,19 +33,15 @@
   margin-left: 30px;
 }
 
-.our-employees__images {
-  margin-top: 0px;
-}
-
 .our-employees__group {
-  padding: 30px 30px 16px 30px;
+  padding: 30px;
 }
 
 .our-employees__name {
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 10px;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: 10px;
 
   color: var(--basic-text-color);
   font-weight: 500;
@@ -61,7 +57,7 @@
   margin-bottom: 16px;
   justify-content: center;
 
-  color: #757575;
+  color: var(--additional-text-color);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;

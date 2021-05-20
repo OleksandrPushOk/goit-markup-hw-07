@@ -27,7 +27,7 @@
   margin-bottom: 20px;
   margin-top: 0px;
 
-  color: #ffffff;
+  color: var(--additional-white-text-color);
   font-style: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -50,10 +50,10 @@
   margin-top: 0px;
   margin-bottom: 20px;
 
-  font-style: bold;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 1);
+  color: var(--additional-white-text-color);
 }
